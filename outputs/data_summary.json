@@ -1,0 +1,20 @@
+{
+  "train_size": 15916,
+  "val_size": 1990,
+  "test_size": 1990,
+  "train_label_distribution": {
+    "positive": 12263,
+    "negative": 1998,
+    "neutral": 1655
+  },
+  "val_label_distribution": {
+    "positive": 1533,
+    "negative": 250,
+    "neutral": 207
+  },
+  "test_label_distribution": {
+    "positive": 1534,
+    "negative": 249,
+    "neutral": 207
+  }
+}

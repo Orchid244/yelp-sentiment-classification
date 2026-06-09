@@ -1,0 +1,57 @@
+{
+  "accuracy": 0.7743718592964824,
+  "macro_f1": 0.6187401182799871,
+  "weighted_f1": 0.7958698104996408,
+  "classification_report": {
+    "negative": {
+      "precision": 0.5460526315789473,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.6003616636528029,
+      "support": 249.0
+    },
+    "neutral": {
+      "precision": 0.29737609329446063,
+      "recall": 0.4927536231884058,
+      "f1-score": 0.3709090909090909,
+      "support": 207.0
+    },
+    "positive": {
+      "precision": 0.9478778853313478,
+      "recall": 0.8298565840938722,
+      "f1-score": 0.8849496002780675,
+      "support": 1534.0
+    },
+    "accuracy": 0.7743718592964824,
+    "macro avg": {
+      "precision": 0.5971022034015853,
+      "recall": 0.6630922913163149,
+      "f1-score": 0.6187401182799871,
+      "support": 1990.0
+    },
+    "weighted avg": {
+      "precision": 0.8299339862680396,
+      "recall": 0.7743718592964824,
+      "f1-score": 0.7958698104996408,
+      "support": 1990.0
+    }
+  },
+  "classification_report_text": "              precision    recall  f1-score   support\n\n    negative     0.5461    0.6667    0.6004       249\n     neutral     0.2974    0.4928    0.3709       207\n    positive     0.9479    0.8299    0.8849      1534\n\n    accuracy                         0.7744      1990\n   macro avg     0.5971    0.6631    0.6187      1990\nweighted avg     0.8299    0.7744    0.7959      1990\n",
+  "confusion_matrix": [
+    [
+      166,
+      55,
+      28
+    ],
+    [
+      63,
+      102,
+      42
+    ],
+    [
+      75,
+      186,
+      1273
+    ]
+  ],
+  "loss": 0.7661821572780609
+}
