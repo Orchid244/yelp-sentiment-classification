@@ -1,6 +1,6 @@
 # Yelp Restaurant Review Sentiment Classification
 
-The goal of the project is to classify restaurant reviews into three sentiment categories: negative, neutral, and positive.
+This repository contains my Foundation AI individual project on sentiment classification using Yelp restaurant reviews. The goal of the project is to classify restaurant reviews into three sentiment categories: negative, neutral, and positive.
 
 The project compares a traditional machine learning baseline with transformer-based models:
 
@@ -39,23 +39,33 @@ The ratings are mapped into three sentiment classes:
 
 ```text
 .
-├── baseline.py
-├── config.py
-├── data_loader.py
-├── evaluate.py
-├── main.py
-├── preprocessing.py
-├── train_transformer.py
-├── utils.py
-├── README.md
-├── requirements.txt
+├── src/
+│   ├── baseline.py
+│   ├── config.py
+│   ├── data_loader.py
+│   ├── evaluate.py
+│   ├── main.py
+│   ├── preprocessing.py
+│   ├── train_transformer.py
+│   └── utils.py
+├── outputs/
+│   ├── data_summary.json
+│   └── results/
+│       ├── baseline/
+│       │   ├── test_confusion_matrix.png
+│       │   ├── test_metrics.json
+│       │   ├── test_report.txt
+│       │   ├── val_confusion_matrix.png
+│       │   ├── val_metrics.json
+│       │   └── val_report.txt
+│       ├── transformer/
+│       │   ├── distilbert_finetuned/
+│       │   └── distilbert_frozen/
+│       └── model_comparison.csv
 ├── .gitignore
-└── outputs/
-    └── results/
-        ├── baseline/
-        └── transformer/
-            ├── distilbert_finetuned/
-            └── distilbert_frozen/
+├── LICENSE.md
+├── README.md
+└── requirements.txt
 ```
 
 The following folders are intentionally excluded from the repository:
